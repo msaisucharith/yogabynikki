@@ -1,0 +1,140 @@
+.about {
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutInfo {
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 4%;
+}
+
+.aboutInfo h2 {
+  font-size: 42px;
+  margin-bottom: 15%;
+}
+
+.aboutInfo p {
+  font-size: 20px;
+}
+
+.aboutPic {
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.imgs {
+  width: 700px;
+  height: 70%;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.imgs:hover {
+  transform: translate(0, -5px);
+}
+
+/* /////// Classes section */
+
+.classes {
+  margin-bottom: 10%;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.classesAbout {
+  margin-left: 15%;
+  width: 50%;
+  margin-right: 15%;
+}
+
+.classesAbout h2 {
+  font-size: 32px;
+  margin-bottom: 10%;
+}
+
+.classesAbout p {
+  font-size: 21px;
+  margin-bottom: 5%;
+  text-align: left;
+}
+
+.classesAboutImg {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.classesAboutImg button {
+  background: #99bc85;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+.classesImg {
+  width: 50%;
+  height: 90%;
+  border-radius: 5%;
+}
+
+/* Instagram page */
+
+.instagramPage {
+  background-color: #99bc85;
+  display: flex;
+  flex-direction: column;
+}
+
+.instagramPage p {
+  padding-top: 10%;
+  text-align: center;
+  padding-bottom: 3%;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.instagramPageImg {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10%;
+}
+
+.instagramPageImg button {
+  padding: 20px 40px;
+  background-color: #d4e7c5;
+  border: none;
+  border-radius: 5%;
+}
+
+@media screen and (max-width: 830px) {
+  .about {
+    flex-direction: column;
+  }
+
+  .imgs {
+    width: 75%;
+    margin-left: 12%;
+  }
+
+  .aboutInfo h2 {
+    font-size: 32px;
+    margin-bottom: 5%;
+  }
+
+  .aboutInfo p {
+    font-size: 12px;
+  }
+
+  .classesPhoto {
+    display: none;
+  }
+
+  .classesAbout p {
+    text-align: left;
+  }
+}
